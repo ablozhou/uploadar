@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+.img-container,
+.img-preview {
+  background-color: #f7f7f7;
+  width: 100%;
+  text-align: center;
+}
+
+.img-container {
+  min-height: 200px;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .img-container {
+    min-height: 500px;
+  }
+}
+
+.img-container > img {
+  max-width: 100%;
+}
+
+.docs-preview {
+  margin-right: -15px;
+}
+
+.img-preview {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.img-preview > img {
+  max-width: 100%;
+}
+
+.preview-lg {
+  width: 200px;
+  height: 200px;
+}
+
+.preview-md {
+  width: 120px;
+  height: 120px;
+}
+
+.preview-sm {
+  width: 48px;
+  height: 48px;
+}
+
+.preview-xs {
+  width: 32px;
+  height: 32px;
+  margin-right: 0;
+}
